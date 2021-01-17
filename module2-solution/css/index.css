@@ -1,0 +1,95 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(238, 234, 172);
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: blueviolet;
+    border-radius: 10px;
+    text-shadow: 0px 0px 5px blueviolet;
+}
+
+h2 {
+    display: inline-block;
+    background-color: rgb(219, 150, 101);
+    padding: 6px 5px 4px 5px;
+    border-radius: 10px;
+    color: darkslateblue;
+    text-align: left;
+    margin-left: -6px;
+    margin-right: 3px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+
+section {
+    background-color: rgb(191, 223, 212);
+    padding: 5px;
+    border: 1px dashed black;
+    border-radius: 12px;
+    text-align: justify;
+}
+
+.row {
+    width: 100%;
+    display: inline-block;
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        border: 5px solid rgb(219, 150, 101);
+    }
+    .col-lg-4 {
+        width: 32.33%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .col-md-6,
+    .col-md-12 {
+        border: 5px dashed rgb(219, 150, 101);
+        float: left;
+    }
+    .col-md-6 {
+        width: 49%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+    .col-md-12 {
+        width: 99%;
+        margin-top: 0.5%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        border: 5px dotted rgb(219, 150, 101);
+        float: left;
+    }
+    .col-sm-12 {
+        width: 100%;
+        margin-top: 0.5%;
+        margin-bottom: 0.5%;
+    }
+}
