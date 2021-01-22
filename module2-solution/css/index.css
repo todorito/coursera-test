@@ -26,14 +26,14 @@ h1 {
 }
 
 h2 {
-    display: inline-block;
+    display: block;
     background-color: rgb(219, 150, 101);
     padding: 6px 5px 4px 5px;
     border-radius: 10px;
     color: darkslateblue;
-    text-align: left;
-    margin-left: -6px;
-    margin-right: 3px;
+    text-align: center;
+    margin-left: 120px;
+    margin-right: -10px;
     margin-top: -10px;
     margin-bottom: 0px;
 }
